@@ -7,8 +7,9 @@
   <br>
   <br>
   <br>
-  <input type="file" id="file1" accept="video/*">
-  <button type="button" onclick="search()">Upload</button>
+  <input type="file" class="file-select" accept="video/*"/>
+  <button class="file-submit">UPLOAD</button>
+</div>
   <style>
     h2 {
       text-align: center;
@@ -19,4 +20,6 @@
       var x = document.getElementById("text1").text;
       console.log(x);
     }
+    function upload() {
+      var _x = document.getElementById("file1");
 </body>
